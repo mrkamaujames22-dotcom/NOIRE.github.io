@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NOIRE | Luxury perfumes, Wear the dark</title>
+<meta name="description" content="NOIRE is a luxury perfume house. Discover Obsidian, Éclat and Vérité, and shop in AED with delivery across the UAE.">
+<meta property="og:title" content="NOIRE | Wear the dark"><meta property="og:description" content="Luxury perfumes for those who leave an impression.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060606;--ch:#111110;--ch2:#1a1917;--ink:#ece8e0;--mute:#999289;--gold:#c2a46c;--line:#2a2724;--serif:"Cormorant Garamond",Georgia,serif;--sans:"Jost",system-ui,sans-serif;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:300 16px/1.7 var(--sans)}
+a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:1px solid var(--gold);outline-offset:3px}
+.w{max-width:1120px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(6,6,6,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font:300 24px var(--serif);letter-spacing:.4em}
+nav{display:flex;gap:26px;font-size:13px;letter-spacing:.1em;color:var(--mute)}nav a:hover{color:var(--ink)}
+.hb,.cartb{background:none;border:0;cursor:pointer;padding:8px}.hb{display:none}
+.cartb span{display:inline-block;min-width:20px;text-align:center;border:1px solid var(--gold);border-radius:10px;font-size:12px;margin-left:6px}
+@media(max-width:760px){.hb{display:block}nav{display:none;position:absolute;top:62px;left:0;right:0;background:var(--bg);flex-direction:column;padding:12px 22px 22px;gap:0;border-bottom:1px solid var(--line)}nav.open{display:flex}nav a{padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}}
+h1,h2,h3{font-family:var(--serif);font-weight:300;margin:0;line-height:1.1}
+h2{font-size:clamp(32px,5vw,50px);letter-spacing:.04em;margin-bottom:22px}
+p{margin:0 0 16px;color:#cdc7bc;max-width:36em}small,.mute{color:var(--mute)}
+.btn{display:inline-block;border:1px solid var(--gold);background:none;color:var(--gold);padding:13px 30px;font-size:13px;letter-spacing:.16em;cursor:pointer;transition:.3s}
+.btn:hover,.btn.fill{background:var(--gold);color:#000}.btn.sm{padding:8px 16px;font-size:12px}
+.lnk{background:none;border:0;color:var(--mute);cursor:pointer;text-decoration:underline;font-size:13px}
+section{padding:90px 0;border-top:1px solid var(--line)}@media(max-width:760px){section{padding:60px 0}}
+.hero{position:relative;min-height:calc(100svh - 62px);display:grid;align-items:center;overflow:hidden;background:radial-gradient(ellipse at 72% 45%,#24201a,var(--bg) 62%)}
+.smoke{position:absolute;inset:0;pointer-events:none}.smoke i{position:absolute;border-radius:50%;filter:blur(60px);background:rgba(200,200,205,.07);animation:dr 18s ease-in-out infinite alternate}
+.smoke i:nth-child(1){width:420px;height:420px;right:5%;top:10%}.smoke i:nth-child(2){width:320px;height:320px;right:30%;bottom:0;animation-delay:-6s}
+@keyframes dr{to{transform:translate(-60px,-40px) scale(1.2)}}
+.hero .w{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(70px,14vw,160px);letter-spacing:.14em}.hero .sl{font:italic 300 clamp(24px,3.4vw,36px) var(--serif);margin:6px 0 34px;color:var(--gold)}
+@media(max-width:800px){.hero .w{grid-template-columns:1fr;text-align:center}.hero .bt{order:-1;margin:20px auto 0}.hero .sl{margin-bottom:26px}}
+.bt{--a:#111;--b:#333;width:var(--bw,150px);aspect-ratio:3/4;position:relative;margin:auto;transition:.5s}
+.bt .cp{position:absolute;left:35%;width:30%;top:0;height:15%;background:linear-gradient(90deg,#0c0c0c,#34312d,#0c0c0c);border:1px solid #3a362f}
+.bt .bd{position:absolute;inset:14% 0 0;background:linear-gradient(115deg,var(--a),var(--b) 55%,var(--a));border:1px solid #403b33;display:grid;place-items:center;text-align:center;box-shadow:0 30px 60px rgba(0,0,0,.6),inset 0 0 30px rgba(255,255,255,.04)}
+.bt span{font:300 clamp(11px,1.6vw,18px) var(--serif);letter-spacing:.3em;color:#e9dfc8;mix-blend-mode:difference}.bt em{display:none}
+.bt.lg{--bw:min(300px,64vw)}.bt.xl{--bw:min(260px,60vw)}
+.bt.side{--bw:80px}.bt.box .cp{display:none}.bt.box .bd{inset:0;border-color:var(--gold)}.bt.box{aspect-ratio:4/5}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.card{background:var(--ch);border:1px solid var(--line);display:flex;flex-direction:column}
+.card .im{padding:36px 0 24px;background:radial-gradient(circle at 50% 60%,#1d1b18,var(--ch));display:block}
+.ci{padding:18px 20px 22px;display:flex;flex-direction:column;gap:6px;flex:1}.ci h3{font-size:26px}.ci p{font-size:14px;color:var(--mute);margin:0 0 8px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto}
+.col{display:block;padding:44px 26px;border:1px solid var(--line);background:linear-gradient(160deg,var(--ch),var(--ch2));transition:.3s}.col:hover{border-color:var(--gold)}
+.col h3{font-size:30px;letter-spacing:.1em;margin-bottom:6px}.col .sg{font:italic 300 20px var(--serif);color:var(--gold);margin-bottom:12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px}@media(max-width:800px){.two{grid-template-columns:1fr;gap:28px}}
+.q{font:300 clamp(26px,3.6vw,40px)/1.3 var(--serif)}
+.sample{font-size:11px;letter-spacing:.14em;border:1px solid var(--line);padding:2px 8px;color:var(--mute)}
+.bar{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+.bar input,.bar select,.f input,.f textarea,.f select{background:var(--ch);border:1px solid var(--line);padding:11px 14px;min-width:0;flex:1 1 150px}
+.f{display:grid;gap:14px;max-width:560px}.f label{display:grid;gap:4px;font-size:13px;color:var(--mute)}.f textarea{min-height:120px}.err{color:#d98c8c;font-size:13px;min-height:1em}
+.f.cols2{grid-template-columns:1fr 1fr;max-width:none}.f.cols2 .full{grid-column:1/-1}@media(max-width:600px){.f.cols2{grid-template-columns:1fr}}
+.notes{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line);margin:22px 0}.notes div{padding:14px;border-right:1px solid var(--line);font-size:14px}.notes div:last-child{border:0}.notes b{display:block;font-weight:400;color:var(--gold);font-size:12px;letter-spacing:.14em}
+.stage{background:radial-gradient(circle at 50% 60%,#211e19,var(--ch));border:1px solid var(--line);padding:50px 0;display:grid;place-items:center;min-height:380px}
+.th{display:flex;gap:8px;margin-top:8px}.th button{flex:1;background:var(--ch);border:1px solid var(--line);padding:10px;cursor:pointer;font-size:13px}.th button[aria-pressed=true]{border-color:var(--gold);color:var(--gold)}
+.pr{font:300 32px var(--serif);margin:10px 0}
+.sel{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0}.sel select,.sel input{background:var(--ch);border:1px solid var(--line);padding:10px 12px;width:auto}.sel input{width:76px}
+.line{display:grid;grid-template-columns:90px 1fr auto;gap:16px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}.line .bt{--bw:50px}
+.sum{background:var(--ch);border:1px solid var(--line);padding:24px}.sum div{display:flex;justify-content:space-between;padding:5px 0}.sum .t{border-top:1px solid var(--line);margin-top:8px;padding-top:12px;font-size:20px}
+.cartg{display:grid;grid-template-columns:1.6fr 1fr;gap:40px}@media(max-width:800px){.cartg{grid-template-columns:1fr}}
+.demo{border:1px solid var(--gold);color:var(--gold);padding:12px 16px;font-size:14px;margin-bottom:22px}
+details{border-bottom:1px solid var(--line);padding:18px 0}summary{cursor:pointer;font:300 24px var(--serif)}details p{margin-top:12px}
+dialog{background:var(--bg);color:var(--ink);border:1px solid var(--gold);padding:0;max-width:760px;width:92vw}dialog::backdrop{background:rgba(0,0,0,.8)}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--gold);color:#000;padding:10px 22px;z-index:60;font-size:14px}
+footer{border-top:1px solid var(--line);padding:56px 0 30px;font-size:14px;color:var(--mute)}footer .g{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}@media(max-width:700px){footer .g{grid-template-columns:1fr 1fr}}footer a{display:block;padding:3px 0}footer a:hover{color:var(--ink)}
+.steps{display:flex;gap:6px;margin:20px 0}.steps span{flex:1;border-top:2px solid var(--line);padding-top:8px;font-size:13px;color:var(--mute)}.steps .on{border-color:var(--gold);color:var(--gold)}
+@media(prefers-reduced-motion:reduce){.smoke i{animation:none}*{transition:none!important}}
+</style></head><body>
+<header><div class="w"><a class="logo" href="#/">NOIRE</a>
+<nav id="nav"><a href="#/shop">Shop</a><a href="#/collection/obsidian">Obsidian</a><a href="#/collection/eclat">Éclat</a><a href="#/collection/verite">Vérité</a><a href="#/story">Our story</a><a href="#/faq">FAQ</a><a href="#/contact">Contact</a></nav>
+<span><button class="cartb" onclick="location.hash='#/cart'" aria-label="Open cart">Cart<span id="cc">0</span></button><button class="hb" aria-label="Menu" onclick="nav.classList.toggle('open')">Menu</button></span></div></header>
+<main id="app"></main>
+<footer><div class="w"><div class="g"><div><div class="logo" style="color:var(--ink)">NOIRE</div><p style="margin-top:10px">Wear the dark.</p></div>
+<div><a href="#/shop">Shop</a><a href="#/story">Our story</a><a href="#/faq">FAQ</a></div><div><a href="#/contact">Contact</a><a id="fi" target="_blank" rel="noopener">Instagram</a><a id="ft" target="_blank" rel="noopener">TikTok</a><a id="fw" target="_blank" rel="noopener">WhatsApp</a></div>
+<div><a href="#/faq">Shipping</a><a href="#/faq">Returns</a><a href="#/faq">Privacy (add policy)</a></div></div>
+<p style="margin-top:34px;font-size:12px">© 2026 NOIRE Perfume Company. Demo site: sample products, prices and reviews are placeholders.</p></div></footer>
+<dialog id="dlg"></dialog><div id="toast" class="toast" hidden></div>
+<script>
+/* ===== EDIT HERE: settings, collections and products ===== */
+const CONFIG={cur:'AED',freeOver:500,delivery:25,vat:0.05,email:'',phone:'',instagram:'',tiktok:'',whatsapp:''};
+const COL={
+obsidian:{name:'NOIRE Obsidian',slogan:'Power in Every Drop.',fam:'Oud & woods',a:'#17130f',b:'#4a3722',mood:'Bold, dark and confident, built on oud, smoky woods and amber.'},
+eclat:{name:'NOIRE Éclat',slogan:'Elegance That Shines.',fam:'Fresh floral',a:'#8d9397',b:'#e3e6e8',mood:'Clean, radiant and sophisticated, with bergamot, fresh florals and musk.'},
+verite:{name:'NOIRE Vérité',slogan:'Your Essence. Your Truth.',fam:'Warm amber',a:'#6b3a10',b:'#e0a049',mood:'Rich, intimate and timeless, with vanilla, saffron, amber and soft woods.'}};
+const P=[
+{id:'obsidian-oud',col:'obsidian',name:'Obsidian Oud',price:{50:420,100:650},best:1,short:'Smoked oud, black pepper and amber.',desc:'A powerful evening scent that opens dark and settles into a long, resinous warmth.',top:'Black pepper, saffron',heart:'Oud, smoky woods',base:'Amber, vetiver',use:'Apply to pulse points in the evening. Two to three sprays are enough.'},
+{id:'obsidian-noir',col:'obsidian',name:'Obsidian Noir',price:{50:390,100:600},short:'Leather, cedar and dark amber.',desc:'A quieter, drier take on the collection, built for those who prefer to be discovered.',top:'Bergamot, black pepper',heart:'Leather, iris',base:'Cedarwood, amber',use:'Works year-round, best on cooler evenings.'},
+{id:'eclat-blanc',col:'eclat',name:'Éclat Blanc',price:{50:380,100:580},best:1,short:'Bergamot, white florals and musk.',desc:'Fresh and luminous, made for daytime and warm climates.',top:'Bergamot, pear',heart:'Jasmine, violet',base:'White musk, cedarwood',use:'Apply after a shower, on skin and clothing.'},
+{id:'eclat-silver',col:'eclat',name:'Éclat Argent',price:{50:400,100:620},short:'Citrus, iris and silver musk.',desc:'A crisp, polished fragrance with a cool, metallic finish.',top:'Citrus, green mandarin',heart:'Iris, lily',base:'Musk, ambergris',use:'A good office and travel scent.'},
+{id:'verite-ambre',col:'verite',name:'Vérité Ambre',price:{50:410,100:640},best:1,short:'Vanilla, saffron and soft woods.',desc:'Warm, sensual and close to the skin. Made to linger.',top:'Cardamom, saffron',heart:'Rose, patchouli',base:'Vanilla, sandalwood',use:'Spray on the neck and wrists. Layer lightly.'},
+{id:'verite-rose',col:'verite',name:'Vérité Rose Ambrée',price:{50:395,100:610},short:'Rose, amber and honeyed woods.',desc:'An intimate floral amber with a soft, glowing dry-down.',top:'Orange, pink pepper',heart:'Damask rose',base:'Amber, soft woods',use:'Ideal for evenings and special occasions.'}];
+/* ===== helpers ===== */
+const $=s=>document.querySelector(s),app=$('#app');
+const money=n=>CONFIG.cur+' '+n.toLocaleString('en-AE');
+const gp=id=>P.find(p=>p.id===id),sz=p=>Object.keys(p.price).map(Number),minP=p=>Math.min(...sz(p).map(s=>p.price[s]));
+function bt(p,cls=''){const c=COL[p.col];return `<div class="bt ${cls}" style="--a:${c.a};--b:${c.b}" aria-hidden="true"><i class="cp"></i><div class="bd"><span>NOIRE</span></div></div>`}
+function ld(k,d){try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+let cart=ld('noire-cart',[]);
+function saveCart(){sv('noire-cart',cart);$('#cc').textContent=cart.reduce((a,i)=>a+i.q,0)}
+function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>t.hidden=true,2200)}
+function add(id,s,q){q=Math.max(1,Math.min(10,+q||1));const i=cart.find(x=>x.id===id&&x.s===s);i?i.q=Math.min(10,i.q+q):cart.push({id,s,q});saveCart();toast('Added to cart');if(location.hash==='#/cart')render()}
+function setQ(k,d){cart[k].q=Math.max(1,Math.min(10,cart[k].q+d));saveCart();render()}
+function rm(k){cart.splice(k,1);saveCart();render()}
+function totals(){const sub=cart.reduce((a,i)=>a+gp(i.id).price[i.s]*i.q,0);const del=!sub?0:sub>=CONFIG.freeOver?0:CONFIG.delivery;const tot=sub+del;return{sub,del,tot,vat:Math.round(tot*CONFIG.vat/(1+CONFIG.vat))}}
+function card(p){return `<article class="card"><a class="im" href="#/product/${p.id}" aria-label="${p.name}">${bt(p,'lg')}</a><div class="ci"><small>${COL[p.col].name}</small><h3>${p.name}</h3><p>${p.short}</p><div class="row"><span>From ${money(minP(p))}</span><span><button class="lnk" onclick="qv('${p.id}')">Quick view</button> <button class="btn sm" onclick="add('${p.id}',${sz(p)[0]},1)">Add</button></span></div></div></article>`}
+function qv(id){const p=gp(id);$('#dlg').innerHTML=`<div style="padding:26px;display:grid;grid-template-columns:1fr 1.3fr;gap:22px"><div class="stage" style="min-height:240px;padding:30px 0">${bt(p,'xl')}</div><div><small>${COL[p.col].name}</small><h3 style="font-size:34px">${p.name}</h3><p class="mute">${p.desc}</p><p><b>Top</b> ${p.top}<br><b>Heart</b> ${p.heart}<br><b>Base</b> ${p.base}</p><p>From ${money(minP(p))}</p><button class="btn fill sm" onclick="add('${p.id}',${sz(p)[0]},1);dlg.close()">Add to cart</button> <a class="btn sm" href="#/product/${p.id}" onclick="dlg.close()">Full details</a> <button class="lnk" onclick="dlg.close()">Close</button></div></div>`;$('#dlg').showModal()}
+function colCards(){return Object.entries(COL).map(([k,c])=>`<a class="col" href="#/collection/${k}"><h3>${c.name.replace('NOIRE ','').toUpperCase()}</h3><div class="sg">${c.slogan}</div><p class="mute">${c.mood}</p><span class="mute">${c.fam}</span></a>`).join('')}
+function setMeta(t,d){document.title=t+' | NOIRE';const m=document.querySelector('meta[name=description]');if(d)m.content=d}
+/* ===== views ===== */
+const V={
+home(){setMeta('Wear the dark','Luxury perfumes from NOIRE.');return `<div class="hero"><div class="smoke"><i></i><i></i></div><div class="w"><div><h1>NOIRE</h1><div class="sl">Wear the dark.</div><a class="btn" href="#/shop">Shop now</a> &nbsp; <a class="lnk" href="#/collection/obsidian">Discover the collection</a></div>${bt({col:'obsidian'},'lg').replace('--a:#17130f;--b:#4a3722','--a:#050505;--b:#26231f')}</div></div>
+<section><div class="w"><h2>The collections</h2><div class="grid">${colCards()}</div></div></section>
+<section><div class="w"><h2>Bestsellers</h2><div class="grid">${P.filter(p=>p.best).map(card).join('')}</div></div></section>
+<section><div class="w two"><div><p class="q">More than a scent. It’s a presence.</p></div><div><p>Noire was born from a simple belief: fragrance is an expression of identity, emotion and presence. We make perfumes for those who leave a lasting impression without saying a word.</p><a class="btn" href="#/story">Our story</a></div></div></section>
+<section><div class="w"><h2>Reviews <span class="sample">SAMPLE CONTENT</span></h2><div class="grid">${['It stays on all evening and people ask what it is.','Fresh without being loud. My daily scent.','Warm and soft. I get compliments every time.'].map(t=>`<div class="card" style="padding:24px"><p class="q" style="font-size:22px">“${t}”</p><small>Sample reviewer</small></div>`).join('')}</div></div></section>
+<section><div class="w"><h2>Join the list</h2><p>Launch news and private releases. Demo form: nothing is stored yet.</p><form class="f" style="grid-template-columns:1fr auto;max-width:520px" onsubmit="event.preventDefault();toast('Thanks. Connect an email service to save sign-ups.');this.reset()"><input type="email" required placeholder="Email address" aria-label="Email address" style="background:var(--ch);border:1px solid var(--line);padding:11px 14px"><button class="btn">Subscribe</button></form></div></section>`},
+shop(){setMeta('Shop','Shop NOIRE perfumes in AED.');return `<section style="border:0"><div class="w"><h2>Shop</h2><div class="bar"><input id="q" type="search" placeholder="Search fragrances" aria-label="Search" oninput="shopGrid()"><select id="fc" onchange="shopGrid()" aria-label="Collection"><option value="">All collections</option>${Object.entries(COL).map(([k,c])=>`<option value="${k}">${c.name}</option>`).join('')}</select><select id="ff" onchange="shopGrid()" aria-label="Scent family"><option value="">All scent families</option>${[...new Set(Object.values(COL).map(c=>c.fam))].map(f=>`<option>${f}</option>`).join('')}</select><select id="fp" onchange="shopGrid()" aria-label="Price"><option value="">Any price</option><option value="400">Under AED 400</option><option value="500">Under AED 500</option><option value="9999">AED 500 and over</option></select><select id="fs" onchange="shopGrid()" aria-label="Sort"><option value="">Featured</option><option value="a">Price, low to high</option><option value="d">Price, high to low</option><option value="n">Name</option></select></div><div id="sg" class="grid"></div></div></section>`},
+product(id){const p=gp(id);if(!p)return V.nf();const c=COL[p.col];setMeta(p.name,p.desc);const s0=sz(p)[0];
+ld.ld=document.getElementById('ldjson')?.remove();const j=document.createElement('script');j.type='application/ld+json';j.id='ldjson';j.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:p.name,description:p.desc,brand:'NOIRE',offers:{'@type':'Offer',priceCurrency:CONFIG.cur,price:minP(p)}});document.head.appendChild(j);
+const rel=P.filter(x=>x.id!==id).sort((a,b)=>(b.col===p.col)-(a.col===p.col)).slice(0,3);
+return `<section style="border:0"><div class="w two"><div><div class="stage" id="stage">${bt(p,'xl')}</div><div class="th" role="group" aria-label="View angle">${[['','Front'],['side','Side'],['box','Box']].map(([v,l],i)=>`<button aria-pressed="${i==0}" onclick="view(this,'${v}')">${l}</button>`).join('')}</div></div>
+<div><small><a href="#/collection/${p.col}">${c.name}</a> · ${c.fam}</small><h2 style="margin:6px 0">${p.name}</h2><p>${p.desc}</p><div class="pr" id="pr">${money(p.price[s0])}</div>
+<div class="sel"><select id="ps" aria-label="Size" onchange="pr.textContent=money(gp('${p.id}').price[this.value])">${sz(p).map(s=>`<option value="${s}">${s} ml</option>`).join('')}</select><input id="pq" type="number" min="1" max="10" value="1" aria-label="Quantity"></div>
+<button class="btn fill" onclick="add('${p.id}',+ps.value,pq.value)">Add to cart</button> <button class="btn" onclick="add('${p.id}',+ps.value,pq.value);location.hash='#/checkout'">Buy now</button>
+<div class="notes"><div><b>TOP</b>${p.top}</div><div><b>HEART</b>${p.heart}</div><div><b>BASE</b>${p.base}</div></div><p><b style="font-weight:400">How to wear.</b> ${p.use}</p><small>Sample product. Replace with real details.</small></div></div></section>
+<section><div class="w"><h2>You may also like</h2><div class="grid">${rel.map(card).join('')}</div></div></section>`},
+collection(k){const c=COL[k];if(!c)return V.nf();setMeta(c.name,c.mood);const ps=P.filter(p=>p.col===k);
+return `<div class="hero" style="min-height:70vh;background:radial-gradient(ellipse at 70% 50%,${c.b}55,var(--bg) 65%)"><div class="smoke"><i></i></div><div class="w"><div><small>THE COLLECTION</small><h1 style="font-size:clamp(50px,9vw,100px);letter-spacing:.1em">${c.name.replace('NOIRE ','').toUpperCase()}</h1><div class="sl">${c.slogan}</div><p>${c.mood}</p></div>${bt(ps[0],'lg')}</div></div><section><div class="w"><h2>${c.name}</h2><div class="grid">${ps.map(card).join('')}</div></div></section>`},
+story(){setMeta('Our story','The philosophy behind NOIRE.');return `<section style="border:0"><div class="w two"><div><h2>Our story</h2><p>Noire was born from a simple belief: fragrance is more than a scent. It is an expression of identity, emotion and presence.</p><p>We create for those who move differently and leave an impression without saying a word. Every perfume is crafted to be unforgettable, like the people who wear it.</p><p class="q" style="margin-top:30px">Bold. Elegant. Timeless.</p></div><div><h3 style="font-size:30px;margin-bottom:8px">Vision</h3><p>To become a globally recognized fragrance brand, known for unique, luxurious and long-lasting scents that inspire confidence and individuality.</p><h3 style="font-size:30px;margin:24px 0 8px">Mission</h3><p>To create high-quality perfumes from the finest ingredients, blending art and science into fragrances that connect with people on a deeper level.</p><h3 style="font-size:30px;margin:24px 0 8px">Values</h3><p>Individuality. Craftsmanship. Elegance. Self-expression. Sustainable sourcing.</p></div></div></section>`},
+faq(){setMeta('FAQ','Shipping, returns, payment and fragrance care.');const q=[['Shipping and delivery',`Delivery across the UAE costs ${money(CONFIG.delivery)}, and is free over ${money(CONFIG.freeOver)}. Add your real delivery zones and times in CONFIG.`],['Returns and exchanges','Add your return window and conditions here. Opened fragrances are often excluded for hygiene reasons.'],['Longevity and storage','Our eau de parfum concentration is designed to last through the day. Store bottles upright, away from heat and sunlight.'],['Payment methods','Payments are not live yet. Once a provider is connected, accepted methods will be listed here.'],['Authenticity and support','Every NOIRE bottle is sold directly by us or by approved partners. Reach us through the contact page.']];return `<section style="border:0"><div class="w"><h2>Frequently asked questions</h2>${q.map(([a,b])=>`<details><summary>${a}</summary><p>${b}</p></details>`).join('')}</div></section>`},
+contact(){setMeta('Contact','Get in touch with NOIRE.');const C=CONFIG;return `<section style="border:0"><div class="w two"><div><h2>Contact</h2><p>Email: ${C.email||'<span class=mute>add your business email in CONFIG</span>'}<br>Phone: ${C.phone||'<span class=mute>add your phone in CONFIG</span>'}</p><p>Find us on Instagram, TikTok and WhatsApp (links in the footer, once added).</p></div>
+<form class="f" id="cf" novalidate onsubmit="return sub(event,'cf',()=>{toast('Demo only: message not sent. Connect a form service.');cf.reset()})"><label>Name<input name="name" required><span class="err"></span></label><label>Email<input name="email" type="email" required><span class="err"></span></label><label>Subject<input name="subject" required><span class="err"></span></label><label>Message<textarea name="message" required minlength="10"></textarea><span class="err"></span></label><button class="btn fill">Send message</button></form></div></section>`},
+cart(){setMeta('Cart');if(!cart.length)return `<section style="border:0"><div class="w"><h2>Your cart is empty</h2><p>Find a fragrance to begin.</p><a class="btn" href="#/shop">Shop now</a></div></section>`;const T=totals();
+return `<section style="border:0"><div class="w"><h2>Cart</h2><div class="cartg"><div>${cart.map((i,k)=>{const p=gp(i.id);return `<div class="line">${bt(p)}<div><a href="#/product/${p.id}">${p.name}</a><br><small>${i.s} ml · ${money(p.price[i.s])}</small><br><button class="lnk" onclick="rm(${k})">Remove</button></div><div><button class="btn sm" aria-label="Decrease" onclick="setQ(${k},-1)">−</button> ${i.q} <button class="btn sm" aria-label="Increase" onclick="setQ(${k},1)">+</button></div></div>`}).join('')}</div><div>${sumBox(T)}<a class="btn fill" style="display:block;text-align:center;margin-top:16px" href="#/checkout">Checkout</a></div></div></div></section>`},
+checkout(){setMeta('Checkout');if(!cart.length)return V.cart();const T=totals();return `<section style="border:0"><div class="w"><h2>Checkout</h2><div class="demo">Demo checkout. No payment is taken and no real order is created until a payment provider is connected.</div><div class="cartg"><form class="f cols2" id="co" novalidate onsubmit="return sub(event,'co',placeOrder)">${[['name','Full name'],['email','Email','email'],['phone','Phone (+971…)','tel'],['emirate','Emirate'],['address','Delivery address','text','full'],['city','City / area']].map(([n,l,t,f])=>n=='emirate'?`<label>${l}<select name="emirate" required><option value="">Select</option>${['Abu Dhabi','Dubai','Sharjah','Ajman','Umm Al Quwain','Ras Al Khaimah','Fujairah'].map(e=>`<option>${e}</option>`).join('')}</select><span class="err"></span></label>`:`<label class="${f||''}">${l}<input name="${n}" type="${t||'text'}" required><span class="err"></span></label>`).join('')}<div class="full"><button class="btn fill">Place demo order</button></div></form><div>${sumBox(T)}</div></div></div></section>`},
+order(){const o=ld('noire-order',null);if(!o)return V.nf();setMeta('Order received');return `<section style="border:0"><div class="w"><h2>Demo order recorded</h2><div class="demo">Reference ${o.ref}. This is a demo: no payment was taken and no confirmation email was sent.</div><p>Thank you, ${o.name}. Total ${money(o.tot)} for delivery to ${o.city}, ${o.emirate}.</p><div class="steps"><span class="on">Received</span><span>Paid</span><span>Packed</span><span>Shipped</span><span>Delivered</span></div><small>Order statuses will update automatically once an order backend is connected.</small><p style="margin-top:20px"><a class="btn" href="#/shop">Continue shopping</a></p></div></section>`},
+nf(){return `<section style="border:0"><div class="w"><h2>Page not found</h2><a class="btn" href="#/">Back home</a></div></section>`}};
+function sumBox(T){return `<div class="sum"><div><span>Subtotal</span><span>${money(T.sub)}</span></div><div><span>Delivery</span><span>${T.del?money(T.del):'Free'}</span></div><div><small>Includes VAT (${CONFIG.vat*100}%)</small><small>${money(T.vat)}</small></div><div class="t"><span>Total</span><span>${money(T.tot)}</span></div></div>`}
+function shopGrid(){const q=$('#q').value.toLowerCase(),c=$('#fc').value,f=$('#ff').value,pr=$('#fp').value,s=$('#fs').value;let r=P.filter(p=>(!q||(p.name+p.short+p.top+p.heart+p.base).toLowerCase().includes(q))&&(!c||p.col===c)&&(!f||COL[p.col].fam===f)&&(!pr||(pr==='9999'?minP(p)>=500:minP(p)<+pr)));
+if(s==='a')r.sort((a,b)=>minP(a)-minP(b));if(s==='d')r.sort((a,b)=>minP(b)-minP(a));if(s==='n')r.sort((a,b)=>a.name.localeCompare(b.name));
+$('#sg').innerHTML=r.length?r.map(card).join(''):'<p>No fragrances match. Clear a filter to see more.</p>'}
+function view(b,v){$('#stage').innerHTML=bt(gp(location.hash.split('/')[2]),'xl '+v);b.parentNode.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b))}
+function sub(e,id,ok){e.preventDefault();const f=$('#'+id);let good=true;f.querySelectorAll('[required]').forEach(i=>{let m='';const v=i.value.trim();if(!v)m='Required.';else if(i.type==='email'&&!/^\S+@\S+\.\S+$/.test(v))m='Enter a valid email.';else if(i.type==='tel'&&!/^\+?[0-9\s-]{8,15}$/.test(v))m='Enter a valid phone number.';else if(i.minLength>0&&v.length<i.minLength)m='Write at least '+i.minLength+' characters.';const s=i.parentNode.querySelector('.err');if(s)s.textContent=m;if(m)good=false});if(good)ok();return false}
+function placeOrder(){const f=new FormData($('#co')),T=totals();sv('noire-order',{ref:'DEMO-'+Math.random().toString(36).slice(2,8).toUpperCase(),name:f.get('name'),city:f.get('city'),emirate:f.get('emirate'),tot:T.tot});cart=[];saveCart();location.hash='#/order'}
+function render(){nav.classList.remove('open');const [,r,a]=location.hash.slice(1).split('/');const f=V[r||'home'];app.innerHTML=f?f(a):V.nf();if(r==='shop')shopGrid();if(r!=='product')document.getElementById('ldjson')?.remove()}
+window.addEventListener('hashchange',()=>{render();scrollTo(0,0)});
+[['fi','instagram'],['ft','tiktok'],['fw','whatsapp']].forEach(([i,k])=>{const a=$('#'+i);CONFIG[k]?a.href=CONFIG[k]:a.removeAttribute('href')});
+saveCart();render();
+</script></body></html>
